@@ -1,0 +1,48 @@
+<svg fill="none" viewBox="0 0 200 25" width="200" height="32" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;">
+			<style>
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 200% 0;
+            }
+            100% {
+                background-position: -200% 0;
+            }
+        }
+
+        .gradient-text {
+            font-size: 18px;
+            font-weight: 700;
+            display: block;
+            color: transparent;
+            background-image: linear-gradient(-220deg, #fc5c7d, #6a82fb, #05dfd7);
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-size: 200% 100%;
+            animation: gradientAnimation 5s linear infinite;
+            white-space: nowrap; /* 防止文本换行 */
+        }
+
+        h2 {
+            display: block;
+            font-size: 18px;
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+        
+        code {
+            font-family: monospace;
+            font-size: 18px;
+        }
+			</style>
+
+      <div class="gradient-text" data-tauri-drag-region="true">
+          <h2>Hey, I'm <b><code>Hazard</code></b>!</h2>
+      </div>
+    </div>
+	</foreignObject>
+</svg>
