@@ -1,3 +1,5 @@
+<h2><a href="https://github.com/CheeseSilly"><img src="https://raw.githubusercontent.com/CheeseSilly/CheeseSilly//master/Hazard.svg" align="left" />🦊</a></h2>
+
 ### Trying to Do My Best 👋
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=CheeseSilly)](https://github.com/anuraghazra/github-readme-stats)
